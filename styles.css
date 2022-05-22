@@ -121,6 +121,13 @@ li.nav-list {
     background-color:#d36907;
 }
 
+#about-me{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+}
+
 #skills{
     text-align: center;
 }
@@ -135,11 +142,6 @@ li.nav-list {
 .icon{
     width: 60px;
     height: 60px;
-    margin: 20px;
-}
-.icon-test{
-    color: black;
-    font-size: 5em;
     margin: 20px;
 }
 
@@ -216,13 +218,12 @@ a:hover {
 }
 
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Special Elite', cursive;   
     color:#FFA34D;
-    font-size: 3.5em; 
+    font-size: 4em; 
     letter-spacing: 0.1em;
-    margin: 10px;
-    text-shadow: 1px 1px 0px #1d1d1d;
+    margin: 10px; 
+    -webkit-text-stroke: .3px #1d1d1d;   
 }
 
 h2{
@@ -230,6 +231,14 @@ h2{
     color: #4a4a4a;
     font-size: 1.5em;
     margin: 10px;
+}
+h2{
+    font-family: 'Special Elite', cursive;   
+    color:#FFA34D;
+    font-size: 1.5em; 
+    letter-spacing: 0.1em;
+    margin: 10px; 
+    -webkit-text-stroke: .3px #1d1d1d;  
 }
 h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
