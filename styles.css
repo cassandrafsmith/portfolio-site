@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-color: #1EB2A6;
+    background-color: #f67575;
     margin: 0;
     padding: 25px;
     box-shadow: 0 0 10px #4a4a4a;
@@ -157,13 +157,12 @@ li.nav-list {
     margin: 40px;
 }
 
-#contact-form{
-    width: 50%;
+#contact-form{    
     margin: auto;
 }
 
 #form{
-    text-align: center;
+    text-align: center;      
 }
 
 
@@ -172,6 +171,9 @@ input, textarea{
     padding: 5px;
     border: none;
     margin: 5px;
+    resize: none;    
+    background-color: #f67575;
+    
 }
 
 .button{
@@ -182,9 +184,13 @@ input, textarea{
     font-size:1em;
     font-weight:bold;
     color: white;
-    background-color:#F67575;
+    background-color:#f67575;
     border: 3px solid black;
     border-radius: 5px;    
+}
+
+.button:hover {
+    background-color: #df4141;
 }
 
 /*** text items ***/
@@ -211,11 +217,12 @@ a:hover {
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Courier New', Courier, monospace;
     color:#FFA34D;
-    font-size: 4.5em; 
+    font-size: 3.5em; 
     letter-spacing: 0.1em;
     margin: 10px;
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px #1d1d1d;
 }
 
 h2{
@@ -239,6 +246,18 @@ p{
     color: #1d1d1d;
 }
 
+/* change the place holder text in different browsers */
+::placeholder{
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
 
 
 
