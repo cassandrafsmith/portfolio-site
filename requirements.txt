@@ -1,0 +1,5 @@
+Requirements
+
+- provide a place to display my projects and other important career based information.
+- cassandrafsmith.com (should this be .dev??)
+- 
