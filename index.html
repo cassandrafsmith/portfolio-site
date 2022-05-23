@@ -19,9 +19,9 @@
                 <div id="navigation" class="header-section">
                     <div id="nav-box">
                         <ul id="nav-list">
-                            <li id="nav-projects" class="nav-list"><a href="#projects-title">Projects</a></li>
-                            <li id="nav-details" class="nav-list"><a href="#details-title">Details</a></li>
-                            <li id="nav-contact" class="nav-list"><a href="#contact-title">Contact</a></li>
+                            <li id="nav-projects" class="nav-list"><a href="#projects-link">Projects</a></li>
+                            <li id="nav-details" class="nav-list"><a href="#detail-link">Details</a></li>
+                            <li id="nav-contact" class="nav-list"><a href="#contact-link">Contact</a></li>
                         </ul>
                     </div>  
                 </div>                         
@@ -31,15 +31,16 @@
             <!-- Welcome Section -->            
             <div id="welcome-section" class="body-section-row">
                 <div id="welcome-info" class="section-content">
-                    <div><h1> Hi, I'm Cassandra. </h1></div>    
+                    <div id="hi"><h1> Hi, I'm Cassandra. </h1></div>    
                     <div><h2>Full-Stack Developer.</h2></div>
                     <div><h2>I like to build things...</h2></div>
                 </div>
                 <div id="welcome-image" class="image">                
-                    <img src="images/Main Image - Cassandra F Smith-black edging.svg" alt="image"> 
+                    <img id="main-image" src="images/Main Image - Rectangle w Trim - Cassandra F Smith.svg" alt="image"> 
                 </div>
             </div>
             <!-- Projects Section -->
+            <a id="projects-link"></a>
             <div id="projects-title" class="title"><h2>Projects</h2></div>
             <div id="projects-section" class="body-section-row">                                    
                 <div id="project-card1" class="project-card">
@@ -73,19 +74,23 @@
                     </div>
                 </div>    
             </div>    
-            <!-- Details Section -->    
+            <!-- Details Section -->
+            <a id="details-link"></a>    
             <div id="details-title" class="title"><h2>Details</h2></div>
             <div id="details-section" class="body-section-column">
-                <h3>About Me</h3>
+                <h3 class="detail-title">About Me</h3>
                 <div id="about-me" class="section-content">
-                    <p>
-                        Hello, World! I'm Cassandra Smith, a full-stack software engineer based out of the Dallas-Ft. Worth Metroplex. I enjoy the process of bringing together logic and art to create responsive websites and web apps that are both user-friendly and accessible.
+                    <p class="about-me-text">
+                        Hello, World! I'm Cassandra Smith, a full-stack software engineer based out of the Dallas-Ft. Worth Metroplex. I enjoy the process of bringing together logic and art to create responsive websites and web apps that are both user-friendly and accessible. 💻
                     </p>
-                    <p>
-                        I am excited to grow and develop my skills with the right company.
+                    <p class="about-me-text">
+                        My first intro to programming was with Java-- the wordiness and syntactic rules touched my heart. 🧡 However, after diving further into web development, I realized that JavaScript is where it's at! 🤗 I enjoy a challenge and am excited to develop my skills in an environment that encourages growth and supports continued-learning. 
+                    </p>
+                    <p class="about-me-text">
+
                     </p>
                 </div>
-                <h3>Tool Kit</h3>  
+                <h3 class="detail-title">Tool Kit</h3>  
                 <div id="skills" class="section-content">    
                     <div class="skill-icons">                        
                         <div class="icon">
@@ -127,8 +132,8 @@
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
                         </div>
                     </div>      
-               </div>  
-               <h3>Education</h3>
+               </div>                 
+               <h3 class="detail-title">Education</h3>
                <div id="education" class="section-content">    
                     <div id="bs" class="education">
                         <h3>BS in Psychology</h3>
@@ -148,12 +153,13 @@
                 </div>                         
             </div>
             <!-- Contact Section -->
+            <a id="contact-link"></a>
             <div id="contact-title" class="title"><h2>Contact</h2></div>
             <div id="contact-section" class="body-section-row">
                <div id="contact-info" class="section-content">
                    <h2>Let's Connect!</h2>
                    <p>Please, feel free to reach out with any question or comments.</p>
-                   <img src="images/cartoon cassandra studying.svg" alt="cartoon cassandra studying">
+                   <img id="cartoon-me" src="images/cartoon cassandra studying.svg" alt="cartoon cassandra studying">
                 </div>
                 <div id="contact-form" class="section-content">
                     <form id="form" method="POST" data-netlify="true">
