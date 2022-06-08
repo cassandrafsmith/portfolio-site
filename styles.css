@@ -54,10 +54,6 @@ li.nav-list {
     margin-bottom: 70px;
 }
 
-#main-image{
-   
-}
-
 .title{
     font-size: 1.5em;
     margin-top: 100px;
@@ -249,10 +245,35 @@ a:hover {
 h1 {
     font-family: 'Special Elite', cursive;   
     color:#FFA34D;
-    font-size: 4em; 
+    font-size: 3.7em; 
     letter-spacing: 0.1em;
     margin: 10px; 
     -webkit-text-stroke: .3px #1d1d1d;   
+}
+
+.typing h1{
+    /* font-family: monospace; */
+    line-height: 1.2em;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .08em solid #FFA34D; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(30, end),
+        blink-caret 1.0s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
 }
 
 /*h2{
@@ -302,6 +323,10 @@ p{
 ::-ms-input-placeholder {
     color: white;
 }
+
+
+
+
 
 
 
